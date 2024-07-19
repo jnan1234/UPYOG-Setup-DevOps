@@ -185,7 +185,7 @@ egov-notification-sms:
   sms-provider-url: "https://api.smscountry.com/SMSCwebservice_bulk.aspx?" ## Add sms provider url
   sms.provider.class: "Generic"
   sms.provider.contentType:  "application/x-www-form-urlencoded"
-  sms-config-map: "{'User':'$username', 'passwd': '$password', 'sid':'ITLCBS', 'mobilenumber':'$mobileno', 'message':'$message', 'mtype':'N', 'DR':'N', 'smsservicetype':'singlemsg'}"
+  sms-config-map: "{'User':'intense', 'passwd': 'In10s123', 'sid':'ITLCBS', 'mobilenumber':'$mobileno', 'message':'$message', 'mtype':'N', 'DR':'N', 'smsservicetype':'singlemsg'}"
   sms-gateway-to-use: "SMSCountry" ## Add sms provider name
   sms-sender: "ITLCBS" ## Add sms sender
   sms-sender-requesttype: "GET"
